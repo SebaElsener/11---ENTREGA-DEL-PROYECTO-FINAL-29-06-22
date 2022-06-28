@@ -1,0 +1,25 @@
+.aNavHeader-Footer {
+  text-shadow: $sombraNavs;
+  color: $colorTipoNavs;
+  font-weight: $weightTipoNavs;
+  font-family: $tipografiaNavs;
+  font-size: $sizeTipoNavs;
+  text-decoration: $decorationTipoNavs;
+}
+
+.tituloNoticia {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.671);
+  margin: 0;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.titulosFooter {
+  font-size: 1.25rem;
+  color: $grisOscuroFooter;
+  text-decoration: none;
+  font-weight: 500;
+}

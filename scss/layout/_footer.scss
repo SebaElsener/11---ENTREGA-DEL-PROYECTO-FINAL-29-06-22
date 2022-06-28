@@ -1,0 +1,71 @@
+/* propiedades-estilos footer */
+.grillaFooter {
+  display: grid;
+  padding: 1.7rem;
+  background-color: rgb(207, 255, 213);
+  grid-template-areas:
+    "irFooterInicio irFooterInicio"
+    "sobreNosotros sobreNosotros"
+    "contactoArchivoTelefono contactoArchivoTelefono"
+    "acercaDe acercaDe";
+  .footInicio {
+    grid-area: irFooterInicio;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    a {
+      @extend .titulosFooter;
+      transition: color 0.5s;
+      &:hover {
+        color: rgb(255, 127, 81);
+      }
+    }
+  }
+  .contactoArchivoTelefono {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    grid-area: contactoArchivoTelefono;
+    h5 {
+      @extend .titulosFooter;
+    }
+    a {
+      @extend .titulosFooter;
+    }
+    .htmlContacto {
+      transition: color 0.5s;
+      &:hover {
+        color: rgb(255, 127, 81);
+      }
+    }
+    .archivoEdiciones {
+      @extend .htmlContacto;
+    }
+  }
+  .sobreNos {
+    grid-area: sobreNosotros;
+    h4 {
+      @extend .titulosFooter;
+    }
+    p {
+      color: $grisClaroFooter;
+      text-align: justify;
+      margin-bottom: 2rem;
+    }
+  }
+  .footerAcerca {
+    background-color: rgb(186, 231, 193);
+    grid-area: acercaDe;
+    text-align: center;
+    margin-top: 2rem;
+    a {
+      @extend .titulosFooter;
+      font-weight: normal;
+      font-size: 1rem;
+      transition: color 0.5s;
+      &:hover {
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+}

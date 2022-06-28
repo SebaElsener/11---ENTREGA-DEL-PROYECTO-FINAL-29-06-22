@@ -1,0 +1,62 @@
+/* propiedades-estilos para noticias de los html de las secciones deportivas */
+.mainNoticiashtml {
+  .cajaNoticia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 10% 4rem;
+    .tituloSecundario {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #3c8a97;
+      margin-bottom: 5%;
+      margin-top: 2%;
+    }
+    .fotoNoticia {
+      width: 80%;
+      height: auto;
+      align-self: center;
+    }
+    .tituloNoticiaSecciones {
+      margin-top: 5%;
+      font-size: 1.2rem;
+      @extend .tituloNoticia;
+    }
+    .textoNoticia {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1rem;
+      text-align: justify;
+    }
+    .divisorStats {
+      text-align: center;
+    }
+  }
+}
+
+.backgroundFutbol {
+  background: url(../img/wallfutbol.png);
+  background-size: cover;
+}
+
+.backgroundBasket {
+  background: url(../img/wallbasket.png);
+  background-size: cover;
+}
+
+.backgroundRemo {
+  background: url(../img/wallremo.png);
+  background-size: cover;
+}
+
+.backgroundOtrosDep {
+  background: url(../img/wallotrosdep.png);
+  background-size: cover;
+}
+
+.backgroundStats {
+  background: url(../img/wallstats.png);
+  background-size: cover;
+}

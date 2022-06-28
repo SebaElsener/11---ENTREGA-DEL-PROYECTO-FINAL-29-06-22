@@ -1,0 +1,32 @@
+/* sobreescribiendo los estilos bootstrap formulario trivia html index */
+.formularioTrivia {
+  line-height: unset;
+  box-shadow: 2px 2px 6px rgb(0, 0, 0);
+  padding: 5%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .formLocal {
+    fieldset {
+      legend {
+        float: none;
+        width: auto;
+        font-size: 1.3rem;
+        margin: 0;
+        line-height: normal;
+      }
+      div {
+        font-size: 1rem;
+        label {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          font-size: 1.2rem;
+          line-height: normal;
+        }
+        input {
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+}
